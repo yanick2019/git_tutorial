@@ -66,10 +66,20 @@
 	git remote add origin https://github.com/yanick2019/git.git
 	git push -u origin master 推master分支到github
 	git push -u origin dev 推dev分支到github
+	git push --force origin master 强推
 查看连接
 	git remote -v show
 断开链接
 	git remote rm origin
+	
+$ git clone https://github.com/USERNAME/REPOSITORY.git
+# Clones a repository to your computer
+
+$ git fetch remotename
+# Fetches updates made to a remote repository
+
+$ git merge remotename/branchname
+# Merges updates made online with your local work	
 
 	
 	
