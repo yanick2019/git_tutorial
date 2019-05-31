@@ -67,7 +67,7 @@
 	git push -u origin master 推master分支到github
 	git push -u origin dev 推dev分支到github
 查看连接
-	git remote rm origin
+	git remote -v show
 断开链接
 	git remote rm origin
 
