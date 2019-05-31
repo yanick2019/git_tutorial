@@ -63,7 +63,7 @@
 	git stash pop 拿回暂时缓存分支任务
 	
 连接 github
-	git remote add origin https://github.com/yanick2019/git.git
+	git remote add origin https://github.com/yanick2019/git_tutorial.git
 	git pull origin master 上传github之前pull一下
 
 	git push -u origin master 推master分支到github
@@ -83,7 +83,10 @@ $ git fetch remotename
 $ git merge remotename/branchname
 # Merges updates made online with your local work	
 
-	
-	
+#git push -u origin master  出错时 [rejected] master -> master (fetch first) 	
+	git fetch origin master:tmp
+	git rebase tmp
+	git push origin HEAD:master
+	git branch -D tmp	
 	
 	
